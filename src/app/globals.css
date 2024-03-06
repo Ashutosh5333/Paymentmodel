@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: cabinfont;
+    src: url(Cabin-Regular-TTF.ttf);
+}
+
+*{
+    font-family: cabinfont;
+}
+
+.Cabin{
+    font-family: cabinfont;
+}
