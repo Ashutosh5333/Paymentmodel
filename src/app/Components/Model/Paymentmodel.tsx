@@ -98,8 +98,8 @@ export const Paymentmodel = ({ isOpen, onClose }: any) => {
 
                <div className=" lg:hidden">
                <div className=" bg-black text-[.6rem] lg:text-[.8rem] flex justify-between gap-2 text-white py-2 px-4 rounded-lg">
-                <p>Close</p>
                 <RxCross2  className="m-auto text-[.7rem]" />
+                <p>Close</p>
               </div>
            </div>
               
