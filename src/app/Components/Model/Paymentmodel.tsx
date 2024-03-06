@@ -21,7 +21,7 @@ export const Paymentmodel = ({ isOpen, onClose }: any) => {
   return (
     <>
       <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-800 bg-opacity-75 z-50">
-        <div className="  bg-white w-[90%] sm:w-[60%] lg:w-[40%] p-6 rounded-lg shadow-lg">
+        <div className="  bg-white w-[92%] sm:w-[60%] md:w-[50%] lg:w-[40%] sm:p-4 md:p-6 rounded-lg shadow-lg">
           <div className="max-w-md mx-auto p-6">
             <div className="text-center mb-8">
               <div className="rounded-full w-16 h-16 bg-[#36C490] flex items-center justify-center mx-auto">
@@ -42,7 +42,7 @@ export const Paymentmodel = ({ isOpen, onClose }: any) => {
               <h2 className="text-xl sm:text-2xl py-2 text-[#36C490] ">
                 Payment Successful
               </h2>
-              <p className="text-gray-600">Order ID #7864</p>
+              <p className="font-normal">Order ID #7864</p>
             </div>
             <div className="mb-2">
               <div className="flex py-1 justify-between">
@@ -85,23 +85,23 @@ export const Paymentmodel = ({ isOpen, onClose }: any) => {
               </div>
             </div>
 
-            <div className=" px-1 sm:px-10 flex justify-between gap-2 mt-8">
+            <div className=" px-0 sm:px-10 flex justify-between gap-2 mt-8">
               
-              <div className="bg-black text-[.5rem] lg:text-[.8rem] flex justify-between gap-2 text-white py-2 px-4 rounded-lg">
+              <div className="bg-black text-[.6rem] lg:text-[.8rem] flex justify-between gap-2 sm:gap-2 text-white py-2 px-4 rounded-lg">
                 <RiMailSendFill className="m-auto " />
                 <p>Send to Email</p>
               </div>
               
-              <div className="hidden lg:block bg-black text-[.5rem] lg:text-[.8rem] text-white py-2 px-4 rounded-lg">
+              <div className="hidden lg:block bg-black text-[.6rem] lg:text-[.8rem] text-white py-2 px-4 rounded-lg">
                 Claim Reward Points
               </div>
 
                <div className=" lg:hidden">
-               <div className=" bg-black text-[.5rem] lg:text-[.8rem] flex justify-between gap-2 text-white py-2 px-4 rounded-lg">
+               <div className=" bg-black text-[.6rem] lg:text-[.8rem] flex justify-between gap-2 text-white py-2 px-4 rounded-lg">
                 <p>Close</p>
                 <RxCross2  className="m-auto text-[.7rem]" />
               </div>
-                </div>
+           </div>
               
 
 

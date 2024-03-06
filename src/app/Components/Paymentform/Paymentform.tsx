@@ -152,7 +152,6 @@ export const Paymentform = () => {
      </div>
 
 
-
         {/* <div className="VIsacard py-4  sm:px-4">
           <div className="font-semibold py-2 text-[#777777] text-[.7rem] sm:text-sm px-2 sm:px-4 mb-4">
             Saved Cards
