@@ -26,7 +26,7 @@ export const Paymentform = () => {
           <Stepper />
         </div>
 
-        <button onClick={openModal}>Open Modal</button>
+        {/* <button onClick={openModal}>Open Modal</button> */}
       <Paymentmodel isOpen={isOpen} onClose={closeModal} />
 
         {/*  */}
